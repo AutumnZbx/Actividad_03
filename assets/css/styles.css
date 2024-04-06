@@ -1,0 +1,115 @@
+body{
+    background-color:#fdf3d4;
+    margin:0;
+}
+
+.nav {
+    position:fixed;
+    background-color:#d67010;
+    width:20%;
+    height:100%;
+}
+
+.nav ul{
+    display:flex;
+    flex-direction:column;
+    margin-left:-2.41rem
+
+}
+
+.nav ul li{
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    list-style: none;
+    margin-bottom:5px;
+    padding:10%;
+}
+
+.nav h1{
+    color:white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display:flex;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.nav ul li a{
+    color:white;
+    text-decoration: none;
+    font-weight:600;
+}
+
+.nav ul li a:hover{
+    color: #476b81;
+    transition:.1s ease-in;
+}
+
+.bderecho {
+    display:flex;
+    flex-direction:column;
+    width:80%;
+    margin-left:20%;
+    background-color:white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bderecho h1, h2{
+    text-transform: uppercase;
+    color:white;
+}
+
+.parr-blanco {
+    color:white;
+}
+
+.columna1 {
+    background-color:#f29979;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:25px;
+    padding-right:25px;
+    min-height:13.75rem;
+}
+
+.columna2 {
+    background-color:#f2db94;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:25px;
+    padding-right:25px;
+    min-height:13.75rem;
+}
+
+.columna3 {
+    background-color:#254559;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:25px;
+    padding-right:25px;
+    min-height:13.75rem;
+}
+
+.columna4 {
+    background-color:#f2db94;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:25px;
+    padding-right:25px;
+    min-height:13.75rem;
+}
+
+.columna5 {
+    background-color:#0A1C40;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:25px;
+    padding-right:25px;
+    min-height:13.75rem;
+}
+
+.columna5 label {
+    color:white;
+}
